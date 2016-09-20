@@ -13,3 +13,5 @@ Try to Design my pages
     - git push
 
 4. Create Branch gh-pages
+
+5. Update to Branch ($(cvs -q up -d -r $branch_name))
