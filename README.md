@@ -14,4 +14,15 @@ Try to Design my pages
 
 4. Create Branch gh-pages
 
-5. Update to Branch ($(cvs -q up -d -r $branch_name))
+5. Update to Branch ( $(cvs -q up -d -r $branch_name) )
+
+6. Add your home page (index.html)
+
+7. Commit home page
+
+    git status
+    git commit -m 'add home page'
+    git push
+    git push origin gh-pages
+
+8. Check your pages by https://$account.github.io/$repository_name/
